@@ -1,0 +1,27 @@
+#principal{
+    text-align: center;
+    
+}
+
+.img-challenge3{
+    width: 200px;
+    height: 200px;
+}
+
+
+#divGeneradorImagenes{
+    width: 70%;
+    height: 70%;
+}
+
+.imgPPT{
+    height: 10em;
+    width: 10em;
+    box-shadow:0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em grey;
+}
+
+.cartaDisplay{
+    height: 20%;
+    width:20%
+}

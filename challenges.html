@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+</head>
+<body>
+    <main id="principal" class="container">
+       
+        <div class="Challenge5">
+            <div class="head-challenge5 ">
+                <h1> BlackJack</h1>
+                <h4>Presiona HIT para empezar a jugar <br>
+                    STAY para quedarte con esa mano <br>
+                    RESET para pasar pasar a la siguiente ronda</h4>
+            </div>
+            <div class='c5-panel d-flex flex-column vh-100 col bg-success '>
+                <div class="display row w-100 h-75">
+                    
+                    <div id='player-display' class='player-display col-sm-6 border '>
+                        <h3>Jugador: <span id='player-puntaje' class='puntaje-ronda'>0</span></h3>
+                        <div class='contenedor-cartas d-flex'></div>
+                    </div>
+
+                    <div id='bot-display' class='bot-display col-sm-6 border'>
+                        <h3>Bot: <span id='bot-puntaje' class='puntaje-ronda'>0</span></h3>
+                        <div class='contenedor-cartas d-flex'></div>
+                    </div>
+                </div>
+                <div class='footer d-flex flex-column align-items-center'>
+                    <div class="botones row justify-content-center">
+                        <button id='hitBTN' class="btn btn-primary m-1">HIT</button>
+                        <button id='stayBTN' class="btn btn-warning m-1">STAY</button>
+                        <button id='PResetBTN' class="btn btn-danger m-1">RESET</button>
+                    </div>
+                    <div class='output'>
+                        <table class="table w-25 ">
+                            <tr>
+                                <th>player</th>
+                                <th>empatados</th>
+                                <th>perdidos</th>
+                            </tr>
+                            <tr>
+                                <td id='pGanadas'>0</td>
+                                <td id='pEmpatadas'>0</td>
+                                <td id='pPerdidas'>0</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
