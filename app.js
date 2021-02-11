@@ -1,12 +1,5 @@
 //CHALLENGE 1
 
-//var
-
-var edad = document.getElementById('edad');
-const clickBtn = document.getElementById('clickBtn');
-const resetBtn = document.getElementById('resetBtn');
-const challenge1 = document.getElementById('challenge1');
-const ageResult = document.getElementById('age-result');
 
 
 //Challenge 5 - Black Jack
